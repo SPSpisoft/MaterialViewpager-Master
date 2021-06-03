@@ -7,6 +7,6 @@
 		}
 	}
   
-  dependencies {
+    dependencies {
 	        implementation 'com.github.SPSpisoft:MaterialViewpager-Master:Tag'
 	}
