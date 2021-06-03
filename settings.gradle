@@ -1,0 +1,3 @@
+include ':materialviewpager'
+include ':app'
+rootProject.name = "MaterialViewpager-Master"

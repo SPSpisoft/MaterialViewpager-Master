@@ -1,0 +1,67 @@
+apply plugin: 'com.android.library'
+
+android {
+    compileSdkVersion 29
+    buildToolsVersion "30.0.3"
+
+    defaultConfig {
+        minSdkVersion 19
+        targetSdkVersion 29
+        versionCode 1
+        versionName "1.0"
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+
+}
+
+dependencies {
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+
+    implementation 'androidx.appcompat:appcompat:1.3.0'
+    implementation 'androidx.recyclerview:recyclerview:1.2.0'
+
+//    implementation (
+//            'com.android.support:recyclerview-v7:'+project.supportVersion,
+//            'com.android.support:support-annotations:'+project.supportVersion
+//    )
+
+    implementation 'com.flaviofaria:kenburnsview:1.0.7'
+    implementation ('com.jpardogo.materialtabstrip:library:1.1.0') {
+        exclude module: 'support-v4'
+    }
+    implementation 'com.github.bumptech.glide:glide:4.12.0'
+}
+
+//ext {
+//    bintrayRepo = 'maven'
+//    bintrayName = 'MaterialViewPager'
+//    orgName = 'florent37'
+//
+//    publishedGroupId = 'com.github.florent37'
+//    libraryName = 'MaterialViewPager'
+//    artifact = 'materialviewpager'
+//
+//    libraryDescription = 'MaterialViewPager'
+//
+//    siteUrl = 'https://github.com/florent37/MaterialViewPager'
+//    gitUrl = 'https://github.com/florent37/MaterialViewPager.git'
+//
+//    libraryVersion = rootProject.ext.libraryVersion
+//
+//    developerId = 'florent37'
+//    developerName = 'Florent Champigny'
+//    developerEmail = 'champigny.florent@gmail.com'
+//
+//    licenseName = 'The Apache Software License, Version 2.0'
+//    licenseUrl = 'http://www.apache.org/licenses/LICENSE-2.0.txt'
+//    allLicenses = ["Apache-2.0"]
+//}
+
+
+//apply from: rootProject.file('gradle/install-v1.gradle')
+//apply from: rootProject.file('gradle/bintray-android-v1.gradle')
