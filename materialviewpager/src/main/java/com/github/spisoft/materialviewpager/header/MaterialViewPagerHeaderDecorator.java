@@ -1,4 +1,4 @@
-package com.github.florent37.materialviewpager.header;
+package com.github.spisoft.materialviewpager.header;
 
 import android.content.Context;
 import android.graphics.Rect;
@@ -7,9 +7,9 @@ import android.view.View;
 import androidx.recyclerview.widget.GridLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
-import com.github.florent37.materialviewpager.MaterialViewPagerAnimator;
-import com.github.florent37.materialviewpager.MaterialViewPagerHelper;
-import com.github.florent37.materialviewpager.Utils;
+import com.github.spisoft.materialviewpager.MaterialViewPagerAnimator;
+import com.github.spisoft.materialviewpager.MaterialViewPagerHelper;
+import com.github.spisoft.materialviewpager.Utils;
 
 /**
  * Created by florentchampigny on 27/05/2016.

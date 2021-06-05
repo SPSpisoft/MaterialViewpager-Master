@@ -1,4 +1,4 @@
-package com.github.florent37.materialviewpager.header;
+package com.github.spisoft.materialviewpager.header;
 
 import android.graphics.drawable.Drawable;
 

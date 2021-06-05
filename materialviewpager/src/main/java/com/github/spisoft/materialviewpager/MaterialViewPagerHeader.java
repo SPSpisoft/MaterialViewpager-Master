@@ -1,4 +1,4 @@
-package com.github.florent37.materialviewpager;
+package com.github.spisoft.materialviewpager;
 
 import android.content.Context;
 import android.view.View;
@@ -7,7 +7,7 @@ import androidx.appcompat.widget.Toolbar;
 
 import androidx.core.view.ViewCompat;
 
-import static com.github.florent37.materialviewpager.Utils.dpToPx;
+import static com.github.spisoft.materialviewpager.Utils.dpToPx;
 
 /**
  * Created by florentchampigny on 25/04/15.

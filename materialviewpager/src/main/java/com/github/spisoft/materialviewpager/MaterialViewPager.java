@@ -1,4 +1,4 @@
-package com.github.florent37.materialviewpager;
+package com.github.spisoft.materialviewpager;
 
 import android.annotation.TargetApi;
 import android.content.Context;
@@ -20,8 +20,8 @@ import androidx.viewpager.widget.ViewPager;
 import androidx.appcompat.widget.Toolbar;
 
 import com.astuetz.PagerSlidingTabStrip;
-import com.github.florent37.materialviewpager.header.HeaderDesign;
-import com.github.florent37.materialviewpager.header.MaterialViewPagerImageHelper;
+import com.github.spisoft.materialviewpager.header.HeaderDesign;
+import com.github.spisoft.materialviewpager.header.MaterialViewPagerImageHelper;
 
 /**
  * Created by florentchampigny on 28/04/15.

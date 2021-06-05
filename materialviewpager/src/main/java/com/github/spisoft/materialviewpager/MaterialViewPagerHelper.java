@@ -1,6 +1,5 @@
-package com.github.florent37.materialviewpager;
+package com.github.spisoft.materialviewpager;
 
-import android.app.Activity;
 import android.content.Context;
 
 import androidx.core.widget.NestedScrollView;

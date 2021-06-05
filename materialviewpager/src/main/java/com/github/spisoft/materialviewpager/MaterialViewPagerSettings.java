@@ -1,4 +1,4 @@
-package com.github.florent37.materialviewpager;
+package com.github.spisoft.materialviewpager;
 
 import android.content.Context;
 import android.content.res.TypedArray;
@@ -6,7 +6,7 @@ import android.os.Parcel;
 import android.os.Parcelable;
 import android.util.AttributeSet;
 
-import static com.github.florent37.materialviewpager.Utils.pxToDp;
+import static com.github.spisoft.materialviewpager.Utils.pxToDp;
 
 /**
  * Created by florentchampigny on 29/04/15.

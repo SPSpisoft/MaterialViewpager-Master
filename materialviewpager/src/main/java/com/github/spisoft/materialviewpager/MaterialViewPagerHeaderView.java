@@ -1,4 +1,4 @@
-package com.github.florent37.materialviewpager;
+package com.github.spisoft.materialviewpager;
 
 import android.annotation.TargetApi;
 import android.content.Context;

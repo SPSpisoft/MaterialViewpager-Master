@@ -1,4 +1,4 @@
-package com.github.florent37.materialviewpager;
+package com.github.spisoft.materialviewpager;
 
 import android.animation.ArgbEvaluator;
 import android.animation.ObjectAnimator;
@@ -17,15 +17,15 @@ import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 
-import static com.github.florent37.materialviewpager.Utils.canScroll;
-import static com.github.florent37.materialviewpager.Utils.colorWithAlpha;
-import static com.github.florent37.materialviewpager.Utils.dpToPx;
-import static com.github.florent37.materialviewpager.Utils.getTheVisibileView;
-import static com.github.florent37.materialviewpager.Utils.minMax;
-import static com.github.florent37.materialviewpager.Utils.scrollTo;
-import static com.github.florent37.materialviewpager.Utils.setBackgroundColor;
-import static com.github.florent37.materialviewpager.Utils.setElevation;
-import static com.github.florent37.materialviewpager.Utils.setScale;
+import static com.github.spisoft.materialviewpager.Utils.canScroll;
+import static com.github.spisoft.materialviewpager.Utils.colorWithAlpha;
+import static com.github.spisoft.materialviewpager.Utils.dpToPx;
+import static com.github.spisoft.materialviewpager.Utils.getTheVisibileView;
+import static com.github.spisoft.materialviewpager.Utils.minMax;
+import static com.github.spisoft.materialviewpager.Utils.scrollTo;
+import static com.github.spisoft.materialviewpager.Utils.setBackgroundColor;
+import static com.github.spisoft.materialviewpager.Utils.setElevation;
+import static com.github.spisoft.materialviewpager.Utils.setScale;
 
 /**
  * Created by florentchampigny on 24/04/15.

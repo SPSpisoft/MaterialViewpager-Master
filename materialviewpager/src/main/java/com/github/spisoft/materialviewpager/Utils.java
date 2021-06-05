@@ -1,11 +1,9 @@
-package com.github.florent37.materialviewpager;
+package com.github.spisoft.materialviewpager;
 
 import android.content.Context;
 import android.graphics.Color;
 import android.graphics.Rect;
 import android.view.View;
-import android.webkit.WebView;
-import android.widget.ListView;
 import android.widget.ScrollView;
 
 

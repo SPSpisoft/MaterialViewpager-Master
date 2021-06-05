@@ -1,4 +1,4 @@
-package com.github.florent37.materialviewpager.header;
+package com.github.spisoft.materialviewpager.header;
 
 import android.content.Context;
 import android.graphics.drawable.Drawable;
@@ -12,19 +12,19 @@ import com.flaviofaria.kenburnsview.KenBurnsView;
  * Using com.flaviofaria.kenburnsview.KenBurnsView
  * https://github.com/flavioarfaria/KenBurnsView
  */
-public class MaterialViewPagerKenBurnsHeader extends KenBurnsView {
+public class MaterialViewPagerImageHeader extends KenBurnsView {
 
     //region construct
 
-    public MaterialViewPagerKenBurnsHeader(Context context) {
+    public MaterialViewPagerImageHeader(Context context) {
         super(context);
     }
 
-    public MaterialViewPagerKenBurnsHeader(Context context, AttributeSet attrs) {
+    public MaterialViewPagerImageHeader(Context context, AttributeSet attrs) {
         super(context, attrs);
     }
 
-    public MaterialViewPagerKenBurnsHeader(Context context, AttributeSet attrs, int defStyle) {
+    public MaterialViewPagerImageHeader(Context context, AttributeSet attrs, int defStyle) {
         super(context, attrs, defStyle);
     }
 

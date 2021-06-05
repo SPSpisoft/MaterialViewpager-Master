@@ -1,4 +1,4 @@
-package com.github.florent37.materialviewpager.header;
+package com.github.spisoft.materialviewpager.header;
 
 import android.graphics.drawable.BitmapDrawable;
 import android.graphics.drawable.Drawable;
@@ -14,7 +14,7 @@ import com.bumptech.glide.load.engine.GlideException;
 import com.bumptech.glide.request.RequestListener;
 import com.bumptech.glide.request.RequestOptions;
 import com.bumptech.glide.request.target.Target;
-import com.github.florent37.materialviewpager.MaterialViewPager;
+import com.github.spisoft.materialviewpager.MaterialViewPager;
 
 import android.os.Handler;
 
