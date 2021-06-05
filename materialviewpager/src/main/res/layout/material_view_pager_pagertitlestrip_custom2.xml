@@ -6,12 +6,10 @@
     android:id="@id/materialviewpager_pagerTitleStrip"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    app:pstsPaddingMiddle="true"
+    app:pstsPaddingMiddle="false"
     app:pstsDividerPadding="20dp"
     app:pstsIndicatorColor="#FAF4F4"
     app:pstsIndicatorHeight="2dp"
-    app:pstsShouldExpand="false"
     app:pstsTabPaddingLeftRight="10dp"
-    app:pstsTabTextAllCaps="false"
     tools:background="#A333"
      />
