@@ -8,10 +8,10 @@
     android:layout_height="match_parent"
     app:pstsPaddingMiddle="true"
     app:pstsDividerPadding="20dp"
-    app:pstsIndicatorColor="#980808"
+    app:pstsIndicatorColor="#FAF4F4"
     app:pstsIndicatorHeight="2dp"
     app:pstsShouldExpand="true"
     app:pstsTabPaddingLeftRight="10dp"
-    app:pstsTabTextAllCaps="true"
+    app:pstsTabTextAllCaps="false"
     tools:background="#A333"
      />
