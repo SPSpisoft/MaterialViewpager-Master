@@ -2,4 +2,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.github.spisoft.materialviewpager" >
 
+    <meta-data
+        android:name="com.github.spisoft.materialviewpager.MyGlideModule"
+        android:value="AppGlideModule" />
 </manifest>

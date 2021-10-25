@@ -14,6 +14,7 @@ import com.bumptech.glide.load.engine.GlideException;
 import com.bumptech.glide.request.RequestListener;
 import com.bumptech.glide.request.RequestOptions;
 import com.bumptech.glide.request.target.Target;
+import com.github.spisoft.materialviewpager.GlideApp;
 import com.github.spisoft.materialviewpager.MaterialViewPager;
 
 import android.os.Handler;
@@ -46,7 +47,7 @@ public class MaterialViewPagerImageHelper {
                 super.onAnimationEnd(view);
 
                 //change the image when alpha=0
-                Glide.with(imageView.getContext()).load(urlImage)
+                GlideApp.with(imageView.getContext()).load(urlImage)
                     .apply(new RequestOptions().centerCrop())
                     .listener(new RequestListener<Drawable>() {
                         @Override
