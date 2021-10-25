@@ -1,8 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
+
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.github.spisoft.materialviewpager" >
 
+    <uses-permission android:name="android.permission.INTERNET" />
+
     <meta-data
-        android:name="com.github.spisoft.materialviewpager.MyGlideModule"
+        android:name="com.github.spisoft.materialviewpager.MyGlideModuleVP"
         android:value="AppGlideModule" />
 </manifest>

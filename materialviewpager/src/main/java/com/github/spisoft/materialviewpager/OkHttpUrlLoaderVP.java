@@ -14,13 +14,13 @@ import okhttp3.Call;
 import okhttp3.OkHttpClient;
 
 /** A simple model loader for fetching media over http/https using OkHttp. */
-public class OkHttpUrlLoader implements ModelLoader<GlideUrl, InputStream> {
+public class OkHttpUrlLoaderVP implements ModelLoader<GlideUrl, InputStream> {
 
     private final Call.Factory client;
 
     // Public API.
     @SuppressWarnings("WeakerAccess")
-    public OkHttpUrlLoader(@NonNull Call.Factory client) {
+    public OkHttpUrlLoaderVP(@NonNull Call.Factory client) {
         this.client = client;
     }
 
@@ -32,10 +32,10 @@ public class OkHttpUrlLoader implements ModelLoader<GlideUrl, InputStream> {
     @Override
     public LoadData<InputStream> buildLoadData(
             @NonNull GlideUrl model, int width, int height, @NonNull Options options) {
-        return new LoadData<>(model, new OkHttpStreamFetcher(client, model));
+        return new LoadData<>(model, new OkHttpStreamFetcherVP(client, model));
     }
 
-    /** The default factory for {@link OkHttpUrlLoader}s. */
+    /** The default factory for {@link OkHttpUrlLoaderVP}s. */
     // Public API.
     @SuppressWarnings("WeakerAccess")
     public static class Factory implements ModelLoaderFactory<GlideUrl, InputStream> {
@@ -70,7 +70,7 @@ public class OkHttpUrlLoader implements ModelLoader<GlideUrl, InputStream> {
         @NonNull
         @Override
         public ModelLoader<GlideUrl, InputStream> build(MultiModelLoaderFactory multiFactory) {
-            return new OkHttpUrlLoader(client);
+            return new OkHttpUrlLoaderVP(client);
         }
 
         @Override

@@ -24,10 +24,10 @@ import okhttp3.ConnectionSpec;
 import okhttp3.OkHttpClient;
 import okhttp3.TlsVersion;
 
-//import com.bumptech.glide.integration.okhttp3.OkHttpUrlLoader;
+//import com.bumptech.glide.integration.okhttp3.OkHttpUrlLoaderVP;
 
 @GlideModule
-public class MyGlideModule extends AppGlideModule {
+public class MyGlideModuleVP extends AppGlideModule {
     /*
     @Override
     public void applyOptions(Context context, GlideBuilder builder) {
@@ -36,12 +36,12 @@ public class MyGlideModule extends AppGlideModule {
     @Override
     public void registerComponents(@NonNull Context context, @NonNull Glide glide, @NonNull Registry registry) {
         OkHttpClient okHttpClient= UnsafeOkHttpClient.getUnsafeOkHttpClient();
-        registry.replace(GlideUrl.class, InputStream.class, new OkHttpUrlLoader.Factory(okHttpClient));
+        registry.replace(GlideUrl.class, InputStream.class, new OkHttpUrlLoaderVP.Factory(okHttpClient));
     }*/
     @Override
     public void registerComponents(Context context, Glide glide, Registry registry) {
         OkHttpClient client = getNewHttpClient();
-        registry.replace(GlideUrl.class, InputStream.class, new OkHttpUrlLoader.Factory(client));
+        registry.replace(GlideUrl.class, InputStream.class, new OkHttpUrlLoaderVP.Factory(client));
     }
 
 

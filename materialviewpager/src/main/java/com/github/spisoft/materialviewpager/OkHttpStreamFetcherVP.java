@@ -22,7 +22,7 @@ import okhttp3.Response;
 import okhttp3.ResponseBody;
 
 /** Fetches an {@link InputStream} using the okhttp library. */
-public class OkHttpStreamFetcher implements DataFetcher<InputStream>, okhttp3.Callback {
+public class OkHttpStreamFetcherVP implements DataFetcher<InputStream>, okhttp3.Callback {
     private static final String TAG = "OkHttpFetcher";
     private final Call.Factory client;
     private final GlideUrl url;
@@ -35,7 +35,7 @@ public class OkHttpStreamFetcher implements DataFetcher<InputStream>, okhttp3.Ca
 
     // Public API.
     @SuppressWarnings("WeakerAccess")
-    public OkHttpStreamFetcher(Call.Factory client, GlideUrl url) {
+    public OkHttpStreamFetcherVP(Call.Factory client, GlideUrl url) {
         this.client = client;
         this.url = url;
     }
